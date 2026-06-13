@@ -19,6 +19,19 @@ agents**. This is how Cognis Digital operates — and a template you can fork.
 - 🛡️ [`GOVERNANCE.md`](GOVERNANCE.md) — human-in-the-loop, guardrails, audit & accountability
 - 📚 [`SOURCES.md`](SOURCES.md) — McKinsey, Berkeley CMR, MIT Tech Review, Okta, NIST
 
+## Usage — step by step
+
+This repo is a documentation blueprint (no CLI) — an operating model you fork and adapt.
+
+1. **Get the repo:**
+   ```bash
+   git clone https://github.com/cognis-digital/cognis-operations && cd cognis-operations
+   ```
+2. **Start with the operating model** — read [`OPERATING-MODEL.md`](OPERATING-MODEL.md) for the 4-layer agentic model (Governance -> Control -> Coordination -> Cognitive).
+3. **Map it to your org** — adapt [`ORG.md`](ORG.md) (humans + agent factories + AI-native roles) and register your agents in [`AGENTS.md`](AGENTS.md) with roles, scopes, and owners.
+4. **Put guardrails in place** — apply [`GOVERNANCE.md`](GOVERNANCE.md) for human-in-the-loop approvals, audit, and accountability before letting agent factories run.
+5. **Keep it living in CI** — commit your forked `AGENTS.md` / `GOVERNANCE.md` to your own repo and review them in PRs, so the agent registry and guardrails stay version-controlled as your fleet grows. Sources behind the model are in [`SOURCES.md`](SOURCES.md).
+
 ## The operating model at a glance
 
 ```mermaid
