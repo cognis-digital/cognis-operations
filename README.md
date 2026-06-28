@@ -19,6 +19,28 @@ agents**. This is how Cognis Digital operates — and a template you can fork.
 - 🛡️ [`GOVERNANCE.md`](GOVERNANCE.md) — human-in-the-loop, guardrails, audit & accountability
 - 📚 [`SOURCES.md`](SOURCES.md) — McKinsey, Berkeley CMR, MIT Tech Review, Okta, NIST
 
+
+<!-- cognis:example:start -->
+## 🔎 Example output
+
+**Sample result format** _(illustrative values — run on your own data for real findings):_
+
+```
+{
+  "id": "123456",
+  "name": "John Doe",
+  "start_date": "2022-01-01T00:00:00Z",
+  "end_date": "2022-12-31T23:59:59Z",
+  "status": "IN_PROGRESS",
+  "priority": "HIGH",
+  "tags": ["tag1", "tag2"],
+  "created_at": "2022-01-15T14:30:00Z",
+  "updated_at": "2022-02-10T12:45:00Z"
+}
+```
+
+<!-- cognis:example:end -->
+
 ## Usage — step by step
 
 This repo is a documentation blueprint (no CLI) — an operating model you fork and adapt.
